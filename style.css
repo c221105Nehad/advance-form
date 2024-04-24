@@ -69,8 +69,10 @@ body {
     border-bottom-left-radius: 100%;
     border-top-left-radius: 50%;
     z-index: 10;
-    background-color: #00FFC6;
+    /* background-color: #00FFC6; */
     box-shadow: inset 2px 0px 10px black;
+    background: linear-gradient(to bottom, #00b3ff, #00ffc883);
+    backdrop-filter: blur(2px);
 }
 
 .side-section .welcome-title {
@@ -134,8 +136,7 @@ body {
 }
 
 .side-section .social-icons i:hover {
-    background-color: black;
-    color: #00FFC6;
+    color: white;
 }
 
 .main-content {
@@ -277,17 +278,32 @@ body {
 }
 
 .shape-section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.shape-section .shape-one {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    margin-bottom: 1%;
-    margin-left: 18%;
+    top: -130px;
+    left: -17%;
     border-top: 150px solid transparent;
-    border-left: 150px solid #30a9dda8;
+    border-left: 150px solid #30a9ddcc;
     border-bottom: 0px solid black;
     border-bottom-left-radius: 25%;
-    /* z-index: -5; */
-    box-shadow: -7px 7px 10px black;
+    z-index: 15;
+}
+
+.shape-section .shape-two {
+    position: absolute;
+    top: -130px;
+    left: -17%;
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    border-bottom-left-radius: 25%;
+    background-color: #00b3ff;
+    z-index: -5;
+    box-shadow: -7px 7px 10px black,
+    inset -0.5px 0.5px 5px black;
 }
