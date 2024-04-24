@@ -24,6 +24,7 @@ body {
     border-bottom-right-radius: 60%;
     background-color: #247881;
     box-shadow: 5px 5px 10px black;
+    
 }
 
 .logo {
@@ -35,8 +36,9 @@ body {
     background-color: #555; */
 
     img {
-        margin-top: 5px;
-        margin-left: 5px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
         height: 50px;
         width: 50px;
         border-radius: 15px;
@@ -47,8 +49,10 @@ body {
 .main-container {
     border-radius: 20px;
     /* border: 2px solid limegreen; */
+    /* box-shadow: 2px 2px 5px black; */
     border-bottom-right-radius: 65%;
-    height: 65vh;
+    padding-top: 50px;
+    height: 75vh;
 }
 
 .side-section {
@@ -71,7 +75,7 @@ body {
     z-index: 10;
     /* background-color: #00FFC6; */
     box-shadow: inset 2px 0px 10px black;
-    background: linear-gradient(to bottom, #00b3ff, #00ffc883);
+    background: linear-gradient(-120deg, #00b3ff, #00b3fff1, #00ffc871);
     backdrop-filter: blur(2px);
 }
 
@@ -191,6 +195,11 @@ body {
     font-size: 1rem;
 }
 
+.form input[type="text"]:focus {
+    border: none;
+    border-bottom: 2px solid #00FFC6;
+}
+
 .form input[type="submit"] {
     padding: 20% 150%;
     background-color: transparent;
@@ -200,7 +209,8 @@ body {
 }
 
 .form input[type="submit"]:hover {
-    background-color: #00FFC6;
+    background: linear-gradient(-120deg, #00b3ff ,#00ffc871);
+    border: 1px solid #247881;
 }
 
 .form input[type="checkbox"] {
@@ -285,7 +295,7 @@ body {
 
 .shape-section .shape-one {
     position: absolute;
-    top: -130px;
+    top: -120px;
     left: -17%;
     border-top: 150px solid transparent;
     border-left: 150px solid #30a9ddcc;
