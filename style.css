@@ -24,7 +24,6 @@ body {
     border-bottom-right-radius: 60%;
     background-color: #247881;
     box-shadow: 5px 5px 10px black;
-
 }
 
 .logo {
@@ -185,7 +184,8 @@ body {
 }
 
 .form input[type="text"],
-.form input[type="password"] {
+.form input[type="password"],
+.form input[type="email"] {
     width: 170%;
     padding: 10px;
     padding-left: 30px;
@@ -196,7 +196,7 @@ body {
     font-size: 1rem;
 }
 
-.form input[type="text"]:focus {
+.form input:focus {
     color: #00FFC6;
 }
 
