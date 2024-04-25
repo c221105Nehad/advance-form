@@ -136,10 +136,11 @@ body {
     border-radius: 5px;
     padding: 2px;
     transition: all 0.2s ease-in-out;
+    text-shadow: 0.5px 0.5px 1px black;
 }
 
 .side-section .social-icons i:hover {
-    color: white;
+    color: #00FFC6;
 }
 
 .main-content {
