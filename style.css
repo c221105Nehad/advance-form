@@ -24,7 +24,7 @@ body {
     border-bottom-right-radius: 60%;
     background-color: #247881;
     box-shadow: 5px 5px 10px black;
-    
+
 }
 
 .logo {
@@ -190,14 +190,14 @@ body {
     padding: 10px;
     padding-left: 30px;
     border: none;
+    outline: none;
     border-bottom: 2px solid #00FFC6;
     background-color: transparent;
     font-size: 1rem;
 }
 
 .form input[type="text"]:focus {
-    border: none;
-    border-bottom: 2px solid #00FFC6;
+    color: #00FFC6;
 }
 
 .form input[type="submit"] {
@@ -209,7 +209,7 @@ body {
 }
 
 .form input[type="submit"]:hover {
-    background: linear-gradient(-120deg, #00b3ff ,#00ffc871);
+    background: linear-gradient(-120deg, #00b3ff, #00ffc871);
     border: 1px solid #247881;
 }
 
@@ -315,5 +315,5 @@ body {
     background-color: #00b3ff;
     z-index: -5;
     box-shadow: -7px 7px 10px black,
-    inset -0.5px 0.5px 5px black;
+        inset -0.5px 0.5px 5px black;
 }
